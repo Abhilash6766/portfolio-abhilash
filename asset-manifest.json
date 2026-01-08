@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/portfolio-abhilash/static/css/main.854d56c8.css",
+    "main.js": "/portfolio-abhilash/static/js/main.97c6e260.js",
+    "static/media/profile.jpeg": "/portfolio-abhilash/static/media/profile.b30b10294d2145ff0edb.jpeg",
+    "index.html": "/portfolio-abhilash/index.html",
+    "main.854d56c8.css.map": "/portfolio-abhilash/static/css/main.854d56c8.css.map",
+    "main.97c6e260.js.map": "/portfolio-abhilash/static/js/main.97c6e260.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.854d56c8.css",
+    "static/js/main.97c6e260.js"
+  ]
+}
