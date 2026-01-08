@@ -1,8 +1,8 @@
 {
-  "name": "portfolio",
+  "name": "portfolio-abhilash",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://abhilash6766.github.io/abhilash-portfolio",
+  "homepage": "https://abhilash6766.github.io/portfolio-abhilash",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",

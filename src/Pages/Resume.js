@@ -1,28 +1,22 @@
 import React from "react";
 
 export default function Resume() {
+  const resumeUrl = `${process.env.PUBLIC_URL}/resume.pdf`;
+
   return (
     <main className="container mx-auto max-width pt-10 pb-20">
-      {/* Section Header */}
-      <section className="mb-8">
-        <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl font-bold">
-          Resume
-        </h1>
-        <p className="text-content mt-3 lg:max-w-3xl">
-          A snapshot of my education, experience, and technical background.
-          This resume will be updated regularly as I grow.
+      <div className="mb-6">
+        <h1 className="text-4xl font-bold">Resume</h1>
+        <p className="mt-2 text-gray-600">
+          A snapshot of my education, experience, and technical background. This resume will be updated regularly as I grow.
         </p>
-      </section>
+      </div>
 
-      {/* Resume Card */}
-      <section className="rounded-2xl border bg-white dark:bg-dark-card shadow-sm">
-        {/* Toolbar */}
+      <div className="rounded-2xl border overflow-hidden bg-white">
         <div className="flex items-center justify-between px-4 py-3 border-b">
-          <span className="text-sm text-content">
-            Abhilash Reddy Pothireddy — Resume
-          </span>
+          <span className="text-sm text-gray-600">Abhilash Reddy Pothireddy — Resume</span>
           <a
-            href="/resume.pdf"
+            href={resumeUrl}
             target="_blank"
             rel="noreferrer"
             className="text-sm font-medium underline"
@@ -31,16 +25,14 @@ export default function Resume() {
           </a>
         </div>
 
-        {/* Embedded PDF */}
-        <div className="w-full">
-          <iframe
-            title="Resume PDF"
-            src="/resume.pdf"
-            className="w-full"
-            style={{ height: "900px", border: "none" }}
-          />
-        </div>
-      </section>
+        <iframe
+          title="Resume PDF"
+          src={resumeUrl}
+          className="w-full"
+          style={{ height: "80vh" }}
+        />
+      </div>
     </main>
   );
 }
+
