@@ -22,8 +22,8 @@ export const workDetails = [
     Position: "Full Stack Java Developer",
     Company: `Karnati Systems inc`,
     Location: "Canada",
-    Type: "Freelancer",
-    Duration: "June 2022 - Dec 2022",
+    Type: "Full-Time",
+    Duration: "Feb 2023 - Aug 2024",
   },
   {
     Position: "Graduate Teaching Assistant (Enterprise Java)",
